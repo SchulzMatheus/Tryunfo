@@ -1,0 +1,104 @@
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable declaration-empty-line-before */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable font-family-name-quotes */
+/* stylelint-disable number-max-precision */
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-disable indentation */
+/* stylelint-disable order/properties-alphabetical-order */
+.cardContent {
+    position: absolute;
+    width: 358.17px;
+    height: 534.33px;
+    left: 57%;
+    top: 131px;
+    border: solid white 10px;
+    background: #036951;
+    box-shadow: 0px 3.89311px 18.4923px rgba(0, 0, 0, 0.25);
+    border-radius: 9.73277px;
+}
+
+.nameImgContent {
+    position: absolute;
+    width: 308.53px;
+    height: 230.57px;
+    left: 4%;
+    top: 28.23px;
+    background-color: #052727;
+}
+
+.img {
+    justify-content: end;
+    width: 100%;
+    height: 75%;
+}
+
+.cardName {
+    text-align: end;
+    margin-top: 13px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.2518px;
+
+    color: white;
+}
+
+.descriptionContent {
+display: flex;
+flex-wrap: wrap;
+position: absolute;
+width: 90%;
+height: 143.07px;
+left: 5%;
+top: 55%;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 300;
+font-size: 14.73277px;
+line-height: 13px;
+text-align: justify;
+
+/* or 130% */
+
+color: white;
+}
+
+.AttrContent {
+    position: absolute;
+    width: 308.53px;
+    height: 118.22px;
+    left: 4%;
+    top: 75%;
+    background: white;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.att1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.5724px;
+    line-height: 150%;
+    color: white;
+    background: #023031;
+    border-radius: 10px 40.73277px 40.73277px 10px;
+    width: 49.64px;
+    height: 23px;
+    left: calc(50% - 49.64px/2 + 409.07px);
+    top: calc(50% - 23px/2 - 793.92px);
+}
+
+.raridade {
+    color: white;
+}
+
+.supertrunfo {
+    position: absolute;
+    color: orange;
+    top: 0px;
+    text-align: end;
+    width: 100%;
+}

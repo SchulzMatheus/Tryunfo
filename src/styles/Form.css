@@ -1,0 +1,18 @@
+.form {
+  height: 721px;
+  left: 101px;
+  position: absolute;
+  top: 87px;
+  width: 29.5%;
+}
+
+.nameText {
+  display: flex;
+  flex-direction: column;
+}
+
+.atribute {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
