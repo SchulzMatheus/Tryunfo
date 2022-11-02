@@ -1,10 +1,6 @@
 
 # Requisitos
 
-:warning: **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS.** :warning:
-
-:warning: Os gifs são meramente ilustrativos para visualizar o fluxo da aplicação. Portanto, os nomes devem seguir os requisitos e não o gif. :warning:
-
 ## 1. Crie o formulário que será usado para adicionar cartas ao baralho
 Crie um formulário que será utilizado para criar as cartas do seu baralho.
 
