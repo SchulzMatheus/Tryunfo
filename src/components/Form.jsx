@@ -136,7 +136,7 @@ export default class Form extends Component {
           }
         </div>
         <button
-          className="btn btn-primary"
+          className="btn btn-primary saveBtn"
           type="submit"
           data-testid="save-button"
           disabled={ isSaveButtonDisabled }

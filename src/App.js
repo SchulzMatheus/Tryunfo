@@ -2,17 +2,18 @@ import React from 'react';
 import Form from './components/Form';
 import Card from './components/Card';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      cardName: '',
+      cardName: 'CardName',
       cardDescription: '',
       cardAttr1: '',
       cardAttr2: '',
       cardAttr3: '',
-      cardImage: '',
+      cardImage: 'https://picsum.photos/200/300',
       cardRare: 'normal',
       cardTrunfo: false,
       deck: [],
@@ -36,12 +37,12 @@ class App extends React.Component {
     } = this.state;
 
     this.setState({
-      cardName: '',
+      cardName: 'CardName',
       cardDescription: '',
       cardAttr1: '0',
       cardAttr2: '0',
       cardAttr3: '0',
-      cardImage: '',
+      cardImage: 'https://picsum.photos/200/300',
       cardRare: 'normal',
       hasTrunfo: cardTrunfo,
       cardTrunfo: '',
@@ -98,7 +99,7 @@ class App extends React.Component {
               cardTrunfo={ cardTrunfo }
               hasTrunfo={ hasTrunfo }
               isSaveButtonDisabled={ aux.some((e) => e.length <= 0) || build > maxBuild
-    || auxAtt.some((attr) => attr < 0) || auxAtt.some((attr) => attr > maxStats) }
+    || auxAtt.some((attr) => attr < 0) || auxAtt.some((attr) => attr > maxStats) || deck.length >= 6}
               onSaveButtonClick={ this.onSaveButtonClick }
             />
             <Card
@@ -113,9 +114,11 @@ class App extends React.Component {
               onInputChange={ this.handleChange }
             />
           </div>
-          <div>
+          <div className="deck">
+            <h1 className="titleAllCards">Todas as Cartas</h1>
             {deck.map((e, value) => (
               <div key={ value }>
+                <div className={`card${value}`}>
                 <Card
                   cardName={ e.cardName }
                   cardDescription={ e.cardDescription }
@@ -126,16 +129,18 @@ class App extends React.Component {
                   cardRare={ e.cardRare }
                   cardTrunfo={ e.cardTrunfo }
                 />
-                <button
+                </div>
+              </div>
+            ))}
+                            <button
                   type="button"
+                  className={`btn btn-success btnDelete`}
                   data-testid="delete-button"
-                  value={ e.name }
                   onClick={ this.handleDelete }
+                  disabled={deck<=0}
                 >
                   Excluir
                 </button>
-              </div>
-            ))}
           </div>
         </div>
       </div>

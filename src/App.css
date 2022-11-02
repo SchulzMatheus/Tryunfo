@@ -36,3 +36,69 @@ html {
   position: absolute;
   top: 90px;
 }
+
+.deck {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 780px;
+  left: 13%;
+  top: 1300px
+}
+ .card0 {
+  position: absolute;
+  width:  358.17px;
+  height: 534.33px;
+  left: -23%;
+  top: -10%;
+}
+.card1 {
+  position: absolute;
+  width:  358.17px;
+  height: 534.33px;
+  left: 11%;
+  top: -10%;
+} 
+.card2 {
+  position: absolute;
+  width:  358.17px;
+  height: 534.33px;
+  left: 46%;
+  top: -10%;
+}
+
+.card3 {
+  position: absolute;
+  width:  358.17px;
+  height: 534.33px;
+  left: -23%;
+  top: 60%;
+}
+.card4 {
+  position: absolute;
+  width:  358.17px;
+  height: 534.33px;
+  left: 11%;
+  top: 60%;
+} 
+.card5 {
+  position: absolute;
+  width:  358.17px;
+  height: 534.33px;
+  left: 46%;
+  top: 60%;
+}
+
+.btnDelete{
+  position: absolute;
+  top: 146%;
+  width: 104%;
+  left: -3%
+}
+.titleAllCards {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-style: italic;
+}

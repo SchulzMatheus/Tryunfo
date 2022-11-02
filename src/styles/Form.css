@@ -14,5 +14,10 @@
 .atribute {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width:100%;
+}
+.saveBtn {
+  position: absolute;
+  left: 300px;
+  top: 80%;
 }
