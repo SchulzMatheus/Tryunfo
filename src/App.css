@@ -110,3 +110,33 @@ html {
   left: 387.92px;
   top: 76px;
 }
+.elipse1 {
+  position: absolute;
+width: 1134px;
+height: 1134px;
+left: -603px;
+top: -449px;
+
+background: radial-gradient(50% 50% at 50% 50%, #2FC18C 0%, rgba(217, 217, 217, 0) 100%);
+mix-blend-mode: overlay;
+}
+.elipse2 {
+  position: absolute;
+  width: 1134px;
+  height: 1134px;
+  left: 657px;
+  top: 433px;
+  
+  background: radial-gradient(50% 50% at 50% 50%, #2FC18C 0%, rgba(217, 217, 217, 0) 100%);
+  mix-blend-mode: overlay;
+}
+.elipse3 {
+  position: absolute;
+width: 1134px;
+height: 1134px;
+left: -555px;
+top: 2036px;
+
+background: radial-gradient(50% 50% at 50% 50%, #2FC18C 0%, rgba(217, 217, 217, 0) 100%);
+mix-blend-mode: overlay;
+}
