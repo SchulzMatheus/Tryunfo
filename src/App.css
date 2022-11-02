@@ -102,3 +102,11 @@ html {
   font-size: 32px;
   font-style: italic;
 }
+
+.imglogo {
+  position: absolute;
+  width: 504.31px;
+  height: 302px;
+  left: 387.92px;
+  top: 76px;
+}

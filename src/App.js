@@ -82,6 +82,7 @@ class App extends React.Component {
     const build = Number(cardAttr1) + Number(cardAttr2) + Number(cardAttr3);
     return (
       <div>
+        <div className="img"></div>
         <div>
           <div className="addNewCard">
             <h1 className="formTitle">ADICIONE NOVA CARTA</h1>
